@@ -1,0 +1,1 @@
+/usr/lib/ccache/avr-g++  -mmcu=atmega32 -O1 -DF_CPU=1000000UL   CMakeFiles/blink_atmega.elf.dir/src/blink.cpp.o  -o blink_atmega.elf 

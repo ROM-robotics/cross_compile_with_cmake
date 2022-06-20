@@ -1,0 +1,5 @@
+/home/mr_robot/Desktop/ATmega328P/blink/cmake/build/CMakeFiles/rebuild_cache.dir
+/home/mr_robot/Desktop/ATmega328P/blink/cmake/build/CMakeFiles/edit_cache.dir
+/home/mr_robot/Desktop/ATmega328P/blink/cmake/build/CMakeFiles/burn.dir
+/home/mr_robot/Desktop/ATmega328P/blink/cmake/build/CMakeFiles/flash.dir
+/home/mr_robot/Desktop/ATmega328P/blink/cmake/build/CMakeFiles/blink_atmega.elf.dir
