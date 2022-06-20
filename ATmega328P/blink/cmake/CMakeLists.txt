@@ -26,6 +26,11 @@ add_custom_target(flash ALL
 	COMMAND avr-objcopy -j .text -j .data -O ihex ${PROJECT_NAME}.elf ${PROJECT_NAME}.hex
 	)
 ################################################################################
+# add_custom_target(burn
+#     DEPENDS flash
+#     COMMAND avrdude -c -usbasp -p m32 -B 0.5 -U flash:w:"%{PROJECT_NAME}.hex":a
+# )
+
 add_custom_target(burn ALL
     DEPENDS flash
     COMMAND avrdude -c -usbasp -p m32 -B 0.5 -U flash:w:"%{PROJECT_NAME}.hex":a
